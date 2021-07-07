@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu{
+    background-color: rgb(148, 135, 135);
+   overflow: hidden;
+   height: 50px;
+}
+
+.logo{
+    width: 15%;
+    float: left;
+    overflow: hidden;
+    padding: 12px;
+}
+.logo a{
+    text-decoration: none;
+    
+    padding-left: 29px;
+    font-size: 23px;
+    
+
+}
+
+
+.nav-items-main{
+    float: left;
+    overflow:  hidden;
+    display: flex;
+    padding-left: 100px;
+    
+   
+    
+}
+
+
+
+.nav-items-main ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+    
+    display: flex;
+    margin: 0;
+    
+}
+
+.nav-items-main ul li{
+    padding: 16px 15px;
+    position: relative;
+
+}
+
+
+.nav-items-main ul li:hover{
+    background-color: hotpink;
+}
+
+.nav-items-main ul li:hover a{
+    color: rgb(97, 37, 9);
+}
+
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-items-main ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+   
+}
+
+.social-items{
+    overflow: hidden;
+    width: 25%;
+    color: green;
+    float: right;
+    padding-right: 35px;
+
+    
+}
+
+.social-items a{
+    padding: 16px;
+    float: right;
+}
+
